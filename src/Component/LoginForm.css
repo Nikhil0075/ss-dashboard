@@ -1,0 +1,71 @@
+
+.login-container {
+    background-color: #111; /* Light black background */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    background-color: #000;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px; /* Rounded corners */
+    width: 300px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+  
+  .forgot-password-link {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  
+  .smrt{
+    color: #28a745;
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    
+  }
+  .smrt:hover{
+    color: white;
+  }
+  .error{
+    color: white;
+  }

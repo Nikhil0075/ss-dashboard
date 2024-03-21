@@ -1,0 +1,111 @@
+.whole{
+    background-color: rgb(196, 196, 196);
+}
+.layout{
+    align-items: center;
+    display: grid;
+    
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
+
+    grid-template-rows: 120px 120px 120px 120px 120px 120px 120px 120px;
+    justify-content: center;
+}
+
+.c1{
+    text-align: left;
+    
+    border-radius: 2%;
+    background-color: white;
+    grid-row: 1/3;
+    grid-column: 1/3;
+    padding: 25px;
+    margin: 25px 25px;
+    border-left: 10px solid green;
+    
+}
+.c2{
+    text-align: left;
+    border-radius: 2%;
+    background-color: white;
+    grid-row: 1/3;
+    grid-column: 3/5;
+    padding: 25px;
+    margin: 25px 25px;
+    border-left: 10px solid green;
+}
+.c3{
+    text-align: left;
+    border-radius: 2%;
+    background-color: white;
+    grid-row: 1/3;
+    grid-column: 5/7;
+    padding: 25px;
+    margin: 25px 25px;
+    border-left: 10px solid green;
+}
+.c4{
+    text-align: left;
+    border-radius: 2%;
+    background-color: white;
+    grid-row: 1/3;
+    grid-column: 7/9;
+    padding: 25px;
+    margin: 25px 25px;
+    border-left: 10px solid green;
+}
+.c5{
+    text-align: left;
+    border-radius: 2%;
+    background-color: white;
+    grid-row: 3/5;
+    grid-column: 1/3;
+    padding: 25px;
+    margin: 25px 25px;
+    border-left: 10px solid green;
+}.c6{
+    text-align: left;
+    border-radius: 2%;
+    background-color: white;
+    grid-row: 3/5;
+    grid-column: 3/5;
+    padding: 25px;
+    margin: 25px 25px;
+    border-left: 10px solid green;
+}.c7{
+    text-align: left;
+    border-radius: 2%;
+    background-color: white;
+    grid-row: 3/5;
+    grid-column: 5/7;
+    padding: 25px;
+    margin: 25px 25px;
+    border-left: 10px solid green;
+}.c8{
+    text-align: left;
+    border-radius: 2%;
+    background-color: white;
+    grid-row: 3/5;
+    grid-column: 7/9;
+    padding: 25px;
+    margin: 25px 25px;
+    border-left: 10px solid green;
+}
+.c9{
+    grid-row: 5/9;
+    grid-column: 1/5;
+}
+.c10{
+    grid-row: 5/9;
+    grid-column: 5/9;
+}
+
+.h3{
+    text-align: left;
+}
+.h1{
+    text-align: left ;
+    margin:0px 180px;
+    /* padding: 10px 50px; */
+}
